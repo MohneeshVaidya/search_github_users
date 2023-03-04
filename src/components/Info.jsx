@@ -146,6 +146,7 @@ const Wrapper = styled.section`
     a {
       color: #129acf;
       text-decoration: none;
+      text-transform: none;
     }
   }
 `;
