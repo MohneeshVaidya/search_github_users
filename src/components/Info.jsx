@@ -49,7 +49,7 @@ const Info = () => {
             return (
               <div key={id}>
                 <span className="icon">{icon}</span>{" "}
-                <a href={text} target="_blank">
+                <a href={`https://${text}`} target="_blank">
                   {text}
                 </a>
               </div>
